@@ -121,13 +121,13 @@ class PhotoSwipe extends React.Component {
             <div className="pswp__top-bar">
               <div className="pswp__counter"/>
               <button className="pswp__button pswp__button--close"
-                title="Close (Esc)"/>
+                title="关闭 (Esc)"/>
               <button className="pswp__button pswp__button--share"
-                title="Share"/>
+                title="旋转"/>
               <button className="pswp__button pswp__button--fs"
-                title="Toggle fullscreen"/>
+                title="全屏"/>
               <button className="pswp__button pswp__button--zoom"
-                title="Zoom in/out"/>
+                title="放大/缩小"/>
               <div className="pswp__preloader">
                 <div className="pswp__preloader__icn">
                   <div className="pswp__preloader__cut">
