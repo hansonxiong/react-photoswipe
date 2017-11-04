@@ -155,7 +155,6 @@ webpackConfig.resolve.alias[pkg.name + '$'] = path.join(__dirname, '../src/index
 webpackConfig.resolve.alias[pkg.name + '/src'] = path.join(__dirname, '../src');
 
 if (DEV) {
-  webpackConfig.plugins.push(new webpack.HotModuleReplacementPlugin());
   webpackConfig.devtool = 'eval';
 }
 
