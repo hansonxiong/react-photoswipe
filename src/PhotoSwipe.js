@@ -102,7 +102,8 @@ class PhotoSwipe extends React.Component {
   };
 
   render() {
-    let {id, className} = this.props;
+    let {id, className, options} = this.props;
+    let downloadEl = options.downloadEl;
     className = classnames(['pswp', className]).trim();
     return (
       <div id={id}
@@ -128,6 +129,7 @@ class PhotoSwipe extends React.Component {
                 title="全屏"/>
               <button className="pswp__button pswp__button--zoom"
                 title="放大/缩小"/>
+                  {downloadEl ? <button className="pswp__button pswp__button--download" title="下载"/> : ''}
               <div className="pswp__preloader">
                 <div className="pswp__preloader__icn">
                   <div className="pswp__preloader__cut">

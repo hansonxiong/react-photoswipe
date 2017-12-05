@@ -36,7 +36,8 @@ class GalleryPage extends React.Component {
       }
     ],
     options: {
-      closeOnScroll: false
+      closeOnScroll: false,
+      downloadEl: true
     }
   };
 
